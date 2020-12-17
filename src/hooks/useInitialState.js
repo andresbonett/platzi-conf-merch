@@ -11,7 +11,7 @@ export default function useInitialState() {
     });
   };
 
-  const removeFromCard = payload => {
+  const removeFromCart = payload => {
     setState({
       ...state,
       cart: state.cart.filter(items => items.id !== payload.id),
@@ -20,7 +20,7 @@ export default function useInitialState() {
 
   return {
     addToCart,
-    removeFromCard,
+    removeFromCart,
     state,
   };
 }
