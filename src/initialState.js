@@ -1,5 +1,6 @@
 const initialState = {
   cart: [],
+  buyer: [],
   products: [
     {
       id: '1',
