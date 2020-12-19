@@ -1,6 +1,7 @@
 const initialState = {
   cart: [],
   buyer: [],
+  orders: [],
   products: [
     {
       id: '1',
@@ -26,7 +27,7 @@ const initialState = {
     {
       id: '5',
       image: 'https://arepa.s3.amazonaws.com/stickers1.png',
-      title: 'Stickers',
+      title: 'Sticker',
       price: 2,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
