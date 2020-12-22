@@ -22,7 +22,7 @@ export default function Payment() {
   };
 
   const handlePaymentSuccess = data => {
-    console.log('Transaction completed by ' + data);
+    console.log(data);
     if (data.status === 'COMPLETED') {
       const newOrder = {
         buyer,
