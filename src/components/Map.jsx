@@ -13,7 +13,7 @@ export default function Map() {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyCmjvkXB_DMnBUNwxQztLMStyQmA_szbNw">
+    <LoadScript googleMapsApiKey="AIzaSyCSrPhhkdzlyrFtsZmiYs9WB_duLFtZoFs">
       <GoogleMap mapContainerStyle={mapStyles} zoom={17} center={defaultCenter}>
         <Marker position={defaultCenter} />
       </GoogleMap>
